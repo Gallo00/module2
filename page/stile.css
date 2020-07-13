@@ -1,0 +1,67 @@
+
+@media (max-width: 767px)
+{
+	#classediv{
+		width: 100%;
+		height: 300px;
+		float: left;
+		border: 3px solid green;
+	}
+	.destra{
+		float: right;
+		text-align: right;
+		border: 3px solid green;
+		height: 20px; 
+		width: 100%;
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.destra{
+		float: right;
+		text-align: right;
+		border: 3px solid green;
+		height: 20px; 
+		width: 100%;
+	}
+
+	.primi_due_div{
+		width: 49%;
+		height: 300px;
+		float: left;
+		border: 3px solid green;
+	}
+
+	.terzo_div{
+		width: 100%;
+		height: 300px;
+		float: left;
+		border: 3px solid green;
+	}
+
+
+}
+
+@media (min-width: 992px)
+{
+	.destra{
+		float: right;
+		text-align: right;
+		border: 3px solid green;
+		height: 20px; 
+		width: 100%;
+	}
+	div{
+		width: 32%;
+		height: 300px;
+		float: left;
+		border: 3px solid green;
+	}
+	p{
+		width: 100%;
+		height: 300px;
+	}
+}
